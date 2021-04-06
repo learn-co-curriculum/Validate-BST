@@ -63,4 +63,3 @@ Explanation: The root node's value is 5 but its right child's value is 4.
 1. `cd` into the javascript folder
 2. `npm i`
 3. `npm test`
-# Validate-BST
