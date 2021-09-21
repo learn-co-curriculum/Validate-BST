@@ -1,34 +1,43 @@
 # Day 3-5: Validate Binary Search Tree
 
-**Fork and then clone me!**
+## Learning Goals
 
-Given the root of a binary tree, determine if it is a valid binary search tree (BST).
+- Practice algorithmic problem solving
+
+## Instructions
+
+Given the root of a binary tree, determine if it is a valid binary search tree
+(BST).
 
 A valid BST is defined as follows:
 
-- The left subtree of a node contains only nodes with keys less than the node's key.
-- The right subtree of a node contains only nodes with keys greater than the node's key.
+- The left subtree of a node contains only nodes with keys less than the node's
+  key.
+- The right subtree of a node contains only nodes with keys greater than the
+  node's key.
 - Both the left and right subtrees must also be binary search trees.
 
-### Example 1:
+### Example 1
 
-![example-1](example-1.png)
+![example-1](https://curriculum-content.s3.amazonaws.com/data-structures-and-algorithms/Validate-BST/example-1.png)
 
+```txt
 Input: root = [2,1,3]
-
 Output: true
+```
 
-### Example 2:
+### Example 2
 
-![example-2](example-2.png)
+![example-2](https://curriculum-content.s3.amazonaws.com/data-structures-and-algorithms/Validate-BST/example-2.png)
 
+```txt
 Input: root = [5,1,4,null,null,3,6]
-
 Output: false
+```
 
 Explanation: The root node's value is 5 but its right child's value is 4.
 
-## Before you start coding:
+## Before you start coding
 
 1. Rewrite the problem in your own words
 2. Validate that you understand the problem
